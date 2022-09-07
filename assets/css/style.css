@@ -1,46 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
 
-/* ----- Colors -----*/
+/* --- Colors --- */
 
 body {
     background-color: #06283D;
 }
 
-/* ---- Navbar ----- */
-
-.navbar {
-    background-color: #06283D;
-    color: #57BCFF;
-}
-
-.navbar-brand,
-.nav-link {
-    color: #57BCFFa4;
-    letter-spacing: 1px;
-}
-
-.navbar-brand {
-    font-weight: bold;
-    font-size: 36px;
-    font-family: 'Space Mono', monospace;
-}
-
-.nav-link {
-    font-size: 18px;
-    font-family: Trispace, sans-serif;
-}
-
-.always-on {
-    color: #DFF6FF;
-}
-
-.text-right {
-    text-align: right;
-}
-
-
-
-/* --------------------------- Special paddings/margins/text */
+/* --- General Styling --- */
 
 .active {
     text-decoration: underline;
@@ -50,13 +16,13 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     font-family: 'Space Mono', monospace;
-    color: #57BCFF;
+    color: #57BCFF
 }
 
-p,
-span {
+p {
     font-family: Trispace, sans-serif;
     color: #DFF6FF;
 }
@@ -73,51 +39,74 @@ span {
 .center {
     text-align: center;
 }
-/* --------------------------- Section */
 
-.section-image {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 360px;
-    height: 360px;
+/* --- Navbar --- */
+
+.navbar,
+.navbar-brand,
+.nav-link {
+    background-color: #06283D;
+    color: #57bcfff3;
+    letter-spacing: 1px;
 }
 
-.section-about {
-    margin-bottom: 15px;
+.navbar-brand {
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Space Mono', monospace;
 }
 
-.section-p {
-    margin-bottom: 30px;
+.nav-link {
+    font-size: 18px;
+    font-family: Trispace, sans-serif;
 }
-/* --------------------------- Footer */
+
+.text-right {
+    text-align: right;
+}
+
+/* --- Footer --- */
 
 footer {
-    margin: 0;
+    margin: 25px 0px 0px 0px;
 }
 
-footer h5 {
+.footer-content h1 {
     font-size: 14px;
 }
 
-footer p {
+.footer-content p,
+.footer-content ul li {
     font-size: 12px;
-}
-
-.footer-details {
-    color: #DFF6FF;
 }
 
 .footer-about {
     text-align: left;
 }
 
-.footer-social {
+.footer-contact {
     text-align: center;
 }
 
 .footer-pdf {
     text-align: right;
+}
+
+.footer-contact ul li a i {
+    font-size: 18px;
+}
+
+/* --- About Me --- */
+
+.about-image {
+    display: block;
+    margin: 10px auto;
+    width: 360px;
+    height: 360px;
+}
+
+.about-info {
+    margin: 15px 0px;
 }
 
 /* --------------------------- Resume */
