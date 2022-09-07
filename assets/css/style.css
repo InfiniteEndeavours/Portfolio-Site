@@ -92,6 +92,10 @@ footer {
     text-align: right;
 }
 
+.footer-pdf a {
+    text-decoration: none;
+}
+
 .footer-contact ul li a i {
     font-size: 18px;
 }
@@ -110,6 +114,37 @@ footer {
 }
 
 /* --------------------------- Resume */
+.skill-set h1,
+.work-history h1 {
+    margin-bottom: 40px;
+}
+
+.timeline {
+    border-left: 1px solid #DFF6FF;
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline .timeline-item {
+    position: relative;
+  }
+  
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+    background-color:#DFF6FF;
+    left: -38px;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    content: "";
+  }
+
+  .timeline-item h1 {
+    font-size: 26px;
+  }
+  
 
 /* --------------------------- Projects */
 
