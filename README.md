@@ -1,108 +1,135 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ethan Pitt Personal Portfolio Site
 
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+This website is designed to act as a Personal Portfolio site for myself, which will be responsive on on a variety of devices. It will allow prospective employers to review my work history and projects I have completed.
 
 ---
 
-Happy coding!
+<!-- Add Mockup of site here from Am I Responsive-->
+
+# Contents
+
+* User Experience
+    * Project Discussion
+    * User Stories
+
+* Design / User Interface
+    * Color Palette
+    * Typography
+    * Features
+    * Images
+    * Wireframes
+    * Accessibility
+
+* Technologies
+    * Languages Used
+
+* Testing
+    * Testing User Stories
+    * Manual Testing
+    * External testing and Validation
+    * Bugs
+
+* Deployment
+    * Gitpod
+    * Github Pages
+
+---
+
+# User Experience
+
+## Project Discussion
+
+This website is an online portfolio for myself, where I can showcase the skills I have learnt, along with my work history and projects that I have completed in my personal time.
+
+### User Stories
+
+## Client Goals
+. To be able to view on different devices (Mobile/Tablet/Desktop).
+
+. To display the clients work history.
+
+. To display the clients skill sets.
+
+. To display projects the client has taken part in and completed.
+
+. To display upcoming projects.
+
+## First Time Visitor
+. To find out about the client and their profession.
+
+. Navigate the site easily to find information about the client.
+
+. Find a downloadable CV and contact information.
+
+##
+
+. User should be able to find information they have previously seen should they wish to revisit the page, or show someone else the site.
+
+
+
+---
+
+# Design
+
+## Color Palette
+
+![Ethan Pitt Portfolio Site Color Palette](docs/colors.png)
+
+The palette I am using is based [off of this space palette](https://colorhunt.co/palette/06283d1363df47b5ffdff6ff), however the secondary color, #47B5FF, has been modified to #57BCFF, which allows it to pass WebAIM WCAG AAA standards on a black background while still sticking to the original theme.
+
+## Typography
+
+. To match the space color palette, I am using the 'Space Mono font' from Google Fonts. It is a monospace font.
+
+. Trispace will be used for the body text. This is a sans-serif font.
+
+## Features
+
+The website will feature 3 pages, which are accessible from the home page via navigation links (Home, Resume and Projects). The site will also feature a downloadable copy of a CV.
+
+* All pages will contain the following
+
+    * A responsive navigation bar which will allow the user to traverse the site using the buttons located on top of the pages banner. 
+
+    * A footer at the bottom of the page, which will feature a small brief about the client, a link to their CV and links to social medias (Github, Twitter, Email etc).
+
+* Home Page
+
+    * The home page will feature three blurbs about the client, such as a brief about the client, what their motivation is and what their goals are in the future.
+
+* Resume
+
+    * This page will feature a horizontal timeline for the clients work history.
+
+    * A section about the clients skills, which will be consist of both skill graphs and written text.
+
+* Projects
+
+    * Two sections covering a project the client has completed as well as a project the client is going to be working on.
+
+<br>
+
+In the future, it is desired to add a contact page featuring a form, which users of the site can use to approach the client.
+
+
+## Images
+
+The [image](https://unsplash.com/photos/Q1p7bh3SHj8) I have chosen was picked for its simpleness, but also as it matched both the color palette and fonts I have used. It also represents a dream of wanting to do something to change the world.
+
+All images have been taken from [Unsplash](https://www.unsplash.com), which distributes copy right free photographs and art.
+
+## Wireframes
+
+The Wireframes for this site can be found [here](docs/wireframes.pdf).
+
+## Accessibility
+
+I will aim to keep the site accessible to all users by doing the following:
+
+* Making sure all colors contrast each other nicely and pass the [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/) tests.
+
+* Using Semantic HTML throughout the site.
+
+* Ensuring Screen Readers are accounted for by including the necessary aria attributes and creating custom classes.
+
+* Providing alternative text for any images or icons that are used.
