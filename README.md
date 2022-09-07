@@ -75,13 +75,13 @@ This website is an online portfolio for myself, where I can showcase the skills 
 
 ![Ethan Pitt Portfolio Site Color Palette](docs/colors.png)
 
-The palette I am using is based [off of this space palette](https://colorhunt.co/palette/06283d1363df47b5ffdff6ff), however the secondary color, #47B5FF, has been modified to #57BCFF, which allows it to pass WebAIM WCAG AAA standards on a black background while still sticking to the original theme.
+The palette I am using is based [off of this palette](https://colorhunt.co/palette/06283d1363df47b5ffdff6ff), however the secondary color, #47B5FF, has been modified to #57BCFF, which allows it to pass WebAIM WCAG AAA standards on a black background while still sticking to the original theme.
 
 ## Typography
 
-. To match the space color palette, I am using the 'Space Mono font' from Google Fonts. It is a monospace font.
+. 'Space Mono' font from Google Fonts. This will be used for headings. It is a monospace font.
 
-. Trispace will be used for the body text. This is a sans-serif font.
+. 'Trispace' font from Google Fonts. This will be used for the body text. This is a sans-serif font.
 
 ## Features
 
@@ -107,14 +107,13 @@ The website will feature 3 pages, which are accessible from the home page via na
 
     * Two sections covering a project the client has completed as well as a project the client is going to be working on.
 
-<br>
-
-In the future, it is desired to add a contact page featuring a form, which users of the site can use to approach the client.
+* Contact
+    * Contains a form which allows a recruiter or user to establish communication with the client.
 
 
 ## Images
 
-The [image](https://unsplash.com/photos/Q1p7bh3SHj8) I have chosen was picked for its simpleness, but also as it matched both the color palette and fonts I have used. It also represents a dream of wanting to do something to change the world.
+The image I have chosen of a PCB is quite simple however gives the page more of a technical feel.
 
 All images have been taken from [Unsplash](https://www.unsplash.com), which distributes copy right free photographs and art.
 

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* ----- Colors -----*/
+
+/* ---- Font Decoration ----- */
+
+.active {
+    text-decoration: underline;
+}
+
+/* ---- Navbar ----- */
+
+.navbar {
+    background-color: #06283D;
+    color: #DFF6FF;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #dff6ffa4
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #DFF6FF
+}
