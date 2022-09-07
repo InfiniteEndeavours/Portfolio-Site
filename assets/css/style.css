@@ -2,24 +2,146 @@
 
 /* ----- Colors -----*/
 
-/* ---- Font Decoration ----- */
-
-.active {
-    text-decoration: underline;
+body {
+    background-color: #06283D;
 }
 
 /* ---- Navbar ----- */
 
 .navbar {
     background-color: #06283D;
-    color: #DFF6FF;
+    color: #57BCFF;
 }
 
 .navbar-brand,
 .nav-link {
-    color: #dff6ffa4
+    color: #57BCFFa4;
+    letter-spacing: 1px;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    color: #DFF6FF
+.navbar-brand {
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Space Mono', monospace;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-family: Trispace, sans-serif;
+}
+
+.always-on {
+    color: #DFF6FF;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+
+/* --------------------------- Special paddings/margins/text */
+
+.active {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Space Mono', monospace;
+    color: #57BCFF;
+}
+
+p,
+span {
+    font-family: Trispace, sans-serif;
+    color: #DFF6FF;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-heading {
+    font-family: 'Space Mono', monospace;
+    color: #57BCFF;
+}
+
+.center {
+    text-align: center;
+}
+/* --------------------------- Section */
+
+.section-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 360px;
+    height: 360px;
+}
+
+.section-about {
+    margin-bottom: 15px;
+}
+
+.section-p {
+    margin-bottom: 30px;
+}
+/* --------------------------- Footer */
+
+footer {
+    margin: 0;
+}
+
+footer h5 {
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.footer-details {
+    color: #DFF6FF;
+}
+
+.footer-about {
+    text-align: left;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-pdf {
+    text-align: right;
+}
+
+/* --------------------------- Resume */
+
+/* --------------------------- Projects */
+
+/* --------------------------- Contact  */
+
+/* --------------------------- Media Queries */
+
+/* When Navbar is above 768px, margin-right of 100.33px is applied.*/
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        margin-right: 100.33px;
+    }
 }
