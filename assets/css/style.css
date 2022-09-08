@@ -181,6 +181,8 @@ img {
 
 /* --------------------------- Media Queries */
 
+/* If user is viewing on a device that has less than 320px of vertical width, the image will be hidden */
+
 @media (max-width: 320px) {
     .navbar-brand {
         font-size: 1rem;
@@ -196,6 +198,19 @@ img {
 
     #about-me-jump h2{
         margin-top: 4rem;
+    }
+}
+
+/* If user is viewing on a device that has less than 320px of horizontal width, the image will be hidden */
+
+@media (max-height: 320px) {
+
+    #logo {
+        display: none !important;
+    }
+
+    #about-me-jump h2{
+        margin-top: 5rem;
     }
 }
 
