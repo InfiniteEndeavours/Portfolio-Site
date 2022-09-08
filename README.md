@@ -4,18 +4,18 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
 ---
 
-<!-- Add Mockup of site here from Am I Responsive-->
+![Am I responsive Screenshot](docs/responsiveness.png)
 
 # Contents
 
-* User Experience
-    * Project Discussion
-    * User Stories
+* [User Experience](#user-experience)
+    * [Project Discussion](#project-discussion)
+    * [User Stories](#user-stories)
 
-* Design / User Interface
-    * Color Palette
-    * Typography
-    * Features
+* [Design / User Interface](#design)
+    * [Color Palette](#color-palette)
+    * [Typography](#typography)
+    * [Features](#features)
     * Images
     * Wireframes
     * Accessibility
@@ -55,15 +55,15 @@ This website is an online portfolio for myself, where I can showcase the skills 
 . To display upcoming projects.
 
 ## First Time Visitor
-. To find out about the client and their profession.
+. I want to be able to view the persons work history and skillset without needing to see a CV.
 
-. Navigate the site easily to find information about the client.
+. I want to be able to contact the person easily.
 
-. Find a downloadable CV and contact information.
+. I want to be able to download a copy of the persons CV.
 
-##
+## Returning Visitor
 
-. User should be able to find information they have previously seen should they wish to revisit the page, or show someone else the site.
+. I should be able to quickly locate important information such as the persons skillset so I can show this to someone else.
 
 
 
@@ -113,9 +113,7 @@ The website will feature 3 pages, which are accessible from the home page via na
 
 ## Images
 
-The image I have chosen of a PCB is quite simple however gives the page more of a technical feel.
-
-All images have been taken from [Unsplash](https://www.unsplash.com), which distributes copy right free photographs and art.
+The image used on this site was created by myself as a logo for my username.
 
 ## Wireframes
 
@@ -135,8 +133,88 @@ I will aim to keep the site accessible to all users by doing the following:
 
 ---
 
+# Technologies Used
+
+## Languages Used
+
+HTML and CSS were used to create the website and style it.
+
+## Frameworks, Programs and Libraries used
+
+Bootstrap Version 5.2 - Framework used for the website. The Navbar, Timeline, Footer and main sections were created using Bootstraps grid systems. These were modified and then styled using my own style sheet.
+
+Balsamiq - Used to create wireframes for the website.
+
+Git - Version Control Software.
+
+Github - Online repository.
+
+Gitpod - Online IDE.
+
+Font Awesome - Used for icons which are found in the footer.
+
+Google Dev Tools - Used for troubleshooting HTML/CSS.
+
+Firefox Dev Tools - Used for troubleshooting CSS.
+
+---
+
+# Deployment and Development
+
+## Development
+
+All development was done using [gitpod](https://gitpod.io). 
+
+To use Gitpod for development, I performed the following;
+
+1. Created a repository using the template provided by Code Institute.
+
+2. Logged into Gitpod and selected 'New Workspace'.
+
+3. Wait for Gitpod to build the container image.
+
+4. Start development once loaded.
+
+## Deployment
+
+I used Github Pages to deploy the live site. To do this I performed the below;
+
+1. Logged into Github.
+
+2. Navigated to the website repository.
+
+3. Went into 'Settings'.
+
+4. Clicked on the 'Pages' setting.
+
+5. Selected the Main branch and set the folder to /root (Default). Then clicked save.
+
+6. After the build process is compelte the site is reachable in the URL displayed at the top of the page.
+
+---
 # Testing
+
+Throughout the build of the website, I utilised both Chrome and Firefox development tools to help troubleshoot any HTML or CSS issues I encountered.
+
+When asking for a peer to review the website on Slack, the following was raised:
+* Simen Daehlin suggested to make the website more mobile friendly by having multiple sections on one scrolling page, instead of separate pages.
+* Simen also suggested to move away from using absolute measurements in the CSS file to using relative measurements, which would allow for better scaling across devices.
+
+## Feedback
+
+The following feedback was given from the Slack community after raising a question in regards to forms. 
+
+* Instead of submitting the contact form to the Code Institute Form Dump, it should instead redirect to a 'Thank you' page. This was mainly raised for privacy concerns as it is not a server I have access too. This has now been changed and users are redirected to a thank you page.
+
 
 ## Bugs
 
-Navbar-Brand would push the Navbar div too far to the right and cause it to be off text-centered. Thank you to @Dave Horrocks for helping. Fix is to apply the opposite margin (Margin-right = width+current margin of navbrand element)
+* Known Issues
+    * When viewing on a device that is less than 321 pixels in width, the Navbar does not scale correctly with the rest of the elements, causing content to be pushed to the left of the page.
+* Solved Bugs
+
+    * Navbar Brand - When the navbar menu was expanded, the Navbar items would be too far to the right of the screen and not be centered as it should have been. To resolve this, I added a margin offset based on the width and existing margin or the Navar Brand.
+
+    * On smaller devices, if you wanted to visit a new page you needed to scroll back to the top of the page to change page. As this wasn't very easy for mobile users I have now condensed the site into one static page with anchor points throughout. To accompany this I have also made the navigation bar fixed to the top of the screen, so it is accessible no matter what section of the page the user is on.
+
+    * After a request for a peer review on Slack, Simen Daehlin pointed out scalability issues. This was due to the use of measurements using pixels, due to this, small devices were scaling incorrectly. This was resolved by moving away from pixel measurements and instead using rem.
