@@ -9,12 +9,15 @@ body {
 a {
     color: #57BCFF;
 }
+
 /* --- General Styling --- */
 
+/*  Adds an underline to the active page in the navbar*/
 .active {
     text-decoration: underline;
 }
 
+/* Gives all heading elements a default color of #57BCFF and 'Space Mono' as the primary font*/
 h1,
 h2,
 h3,
@@ -25,15 +28,18 @@ h6 {
     color: #57BCFF
 }
 
+/* Gives all paragraph elements a default color of #DFF6FF and 'Trispace' as the primary font*/
 p {
     font-family: Trispace, sans-serif;
     color: #DFF6FF;
 }
 
+/* Transforms text to uppercase */
 .uppercase {
     text-transform: uppercase;
 }
 
+/* Sets non-hx elements to have the same styling as heading elements */
 .general-heading {
     font-family: 'Space Mono', monospace;
     color: #57BCFF;
@@ -41,6 +47,7 @@ p {
 
 /* --- Navbar --- */
 
+/* Sets the navbar background to match the bodys background and sets the font color to a slighlty darker default heading color. Adds letter spacing of 1 pixel*/
 .navbar,
 .navbar-brand,
 .nav-link {
@@ -49,19 +56,17 @@ p {
     letter-spacing: 1px;
 }
 
+/* Sets 'Ethan Pitt' to bold, increases the font size to make it stand out from the nav items, and sets the font to 'Space Mono */
 .navbar-brand {
     font-weight: bold;
     font-size: 36px;
     font-family: 'Space Mono', monospace;
 }
 
+/* Sets the nav-link items to 18 pixels and uses the Trispace font*/
 .nav-link {
     font-size: 18px;
     font-family: Trispace, sans-serif;
-}
-
-.text-right {
-    text-align: right;
 }
 
 /* --- Footer --- */
@@ -161,6 +166,7 @@ footer {
     text-align: center;
     padding: 25px 0;
 }
+
 /* --------------------------- Contact  */
 .center-form {
     max-width: 70%;
@@ -170,7 +176,7 @@ footer {
 }
 
 .center-form form label {
-    color:#DFF6FF;
+    color: #DFF6FF;
     font-family: Trispace, sans-serif;
     padding-bottom: 5px;
     padding-top: 15px;
@@ -210,5 +216,5 @@ footer {
 
     .center-form {
         max-width: 40%;
-    }   
+    }
 }

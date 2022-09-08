@@ -23,15 +23,15 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 * Technologies
     * Languages Used
 
+* Deployment
+    * Gitpod
+    * Github Pages
+
 * Testing
     * Testing User Stories
     * Manual Testing
     * External testing and Validation
     * Bugs
-
-* Deployment
-    * Gitpod
-    * Github Pages
 
 ---
 
