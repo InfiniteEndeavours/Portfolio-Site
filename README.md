@@ -4,7 +4,7 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
 ---
 
-![Am I responsive Screenshot](docs/responsiveness.png)
+![Am I responsive Screenshot](docs/testing/responsiveness.png)
 
 # Contents
 
@@ -16,22 +16,25 @@ This website is designed to act as a Personal Portfolio site for myself, which w
     * [Color Palette](#color-palette)
     * [Typography](#typography)
     * [Features](#features)
-    * Images
-    * Wireframes
-    * Accessibility
+    * [Images](#images)
+    * [Wireframes](#wireframes)
+    * [Accessibility](#accessibility)
 
-* Technologies
-    * Languages Used
+* [Technologies](#technologies)
+    * [Languages Used](#languages-used)
 
-* Deployment
-    * Gitpod
-    * Github Pages
+* [Deployment & Development](#deployment-and-development)
+    * [Development](#development)
+    * [Deployment](#deployment)
 
 * Testing
+    * [Feedback](#feedback)
+    * [Bugs](#bugs)
+    * [Validation](#validation)
     * Testing User Stories
     * Manual Testing
-    * External testing and Validation
-    * Bugs
+    
+    
 
 ---
 
@@ -117,7 +120,7 @@ The image used on this site was created by myself as a logo for my username.
 
 ## Wireframes
 
-The Wireframes for this site can be found [here](docs/wireframes.pdf).
+The Wireframes for this site can be found [here](docs/wireframes/wireframes.pdf).
 
 ## Accessibility
 
@@ -133,7 +136,7 @@ I will aim to keep the site accessible to all users by doing the following:
 
 ---
 
-# Technologies Used
+# Technologies
 
 ## Languages Used
 
@@ -156,6 +159,8 @@ Font Awesome - Used for icons which are found in the footer.
 Google Dev Tools - Used for troubleshooting HTML/CSS.
 
 Firefox Dev Tools - Used for troubleshooting CSS.
+
+Compressor.io - Used to compress the logo image from 7KB to 1KB.
 
 ---
 
@@ -213,8 +218,20 @@ The following feedback was given from the Slack community after raising a questi
     * When viewing on a device that is less than 321 pixels in width, the Navbar does not scale correctly with the rest of the elements, causing content to be pushed to the left of the page.
 * Solved Bugs
 
-    * Navbar Brand - When the navbar menu was expanded, the Navbar items would be too far to the right of the screen and not be centered as it should have been. To resolve this, I added a margin offset based on the width and existing margin or the Navar Brand.
+    * Navbar Brand - When the navbar menu was expanded, the Navbar items would be too far to the right of the screen and not be centered as it should have been. To resolve this, I added a margin offset based on the width and existing margin or the Navar Brand. Credit to **DaveHorrocks_5P** on Slack for helping me to resolve this issue.
 
     * On smaller devices, if you wanted to visit a new page you needed to scroll back to the top of the page to change page. As this wasn't very easy for mobile users I have now condensed the site into one static page with anchor points throughout. To accompany this I have also made the navigation bar fixed to the top of the screen, so it is accessible no matter what section of the page the user is on.
 
     * After a request for a peer review on Slack, Simen Daehlin pointed out scalability issues. This was due to the use of measurements using pixels, due to this, small devices were scaling incorrectly. This was resolved by moving away from pixel measurements and instead using rem.
+
+    * When viewing the site on a device in portrait mode and going below 250 pixels in width, the logo was not resizing. To resolve this I added the Bootstrap class `img-fluid` to the `img` element. This issue can be seen below.
+
+    ![A GIF of Solved Bug #4](docs/SizingIssue.gif)
+
+## Validation
+
+For validation of both the HTML and CSS of the website, I used W3C's HTML and CSS Validators.
+
+* [HTML Validation (index.html)](docs/testing/w3cIndexValidation.png)
+* [HTML Validation (thank-you.html)](docs/testing/w3cThankYouValidation.png)
+* [CSS Validation (style.css)](docs/testing/cssValidation.png)
