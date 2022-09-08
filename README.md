@@ -58,31 +58,39 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
 This website is an online portfolio for myself, where I can showcase the skills I have learnt, along with my work history and projects that I have completed in my personal time.
 
-### User Stories
+Key Goals:
 
-## Client Goals
+* To be able to present my work history
 
-. To make the site viewable on different devices (Mobile/Tablet/Desktops)
+* To be able to provide a copy of my CV Employers can access.
 
-. To make it easy for an employer or recruiter to
+## User Stories
 
-. To display the client's skill sets.
+### Client Goals
 
-. To display projects the client has taken part in and completed.
+* To make the site viewable on different devices (Mobile/Tablet/Desktops)
 
-. To display upcoming projects.
+* To make it easy for an employer or recruiter to
 
-## First Time Visitor
+* To display the client's skill sets.
 
-. I want to be able to view the persons work history and skillset without needing to see a CV.
+* To display projects the client has taken part in and completed.
 
-. I want to be able to contact the person easily.
+* To display upcoming projects.
 
-. I want to be able to download a copy of the persons CV.
+### First Time Visitor
 
-## Returning Visitor
+* I want to be able to view the persons work history and skillset without needing to see a CV.
 
-. I should be able to quickly locate important information such as the persons skillset so I can show this to someone else.
+* I want to be able to contact the person easily.
+
+* I want to be able to download a copy of the persons CV.
+
+* I want to be able to navigate the site easily.
+
+### Returning Visitor
+
+*  I should be able to quickly locate important information such as the persons skillset so I can show this to someone else.
 
 ---
 
