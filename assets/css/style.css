@@ -91,6 +91,10 @@ footer {
 
 /* --- About Me --- */
 
+img {
+    object-fit: contain;
+}
+
 /* Adds a top margin of 1rem to the top and bottom of the about-info section*/
 .about-info {
     margin: 1rem 0;
@@ -179,17 +183,25 @@ footer {
 
 @media (max-width: 320px) {
     .navbar-brand {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .nav-link {
         font-size: 1rem;
     }
+
+    #logo {
+        display: none !important;
+    }
+
+    #about-me-jump h2{
+        margin-top: 4rem;
+    }
 }
 
 /* When Navbar is above 768px, margin-right of 100.33px is applied to offset navbar-brand element.*/
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
         margin-right: 6.271rem;
     }
