@@ -1,3 +1,5 @@
+/* root fontsize is 16px. 1rem = 16px*/
+
 /* Google font imports for regular/bold (400/700) weights of the Space Mono and Trispace font families. */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Trispace:wght@400;700&display=swap');
 
@@ -30,17 +32,21 @@ a {
     color: #DFF6FF;
 }
 
+/* 
+Applies a margin of 4rem to the top of the element with this class. This is to space the page out when crossing into other sections 
+Set font weight to 700 to more clearly define a new section of the page
+*/
 .section-break {
     font-weight: 700;
     margin-top: 4rem;
 }
-
+/* Spaces out the section headings from the section header by 2 rem to provide content with space*/
 .section-space {
     margin-top: 2rem;
 }
 /* --- Navbar --- */
 
-/* Sets the navbar background to match the bodys background and sets the font color to a slighlty darker default heading color. Adds letter spacing of 1 pixel*/
+/* Sets the navbar background to match the bodys background and sets the font color to a slighlty darker default heading color. Adds letter spacing of 1 pixel */
 .navbar,
 .navbar-brand,
 .nav-link {
@@ -67,12 +73,12 @@ footer {
     margin-top: 5rem;
 }
 
-/* Sets a font size of 14 pixels for footer header elements*/
+/* Sets a font size of 1.6 rem for footer header elements*/
 .footer-content h1 {
     font-size: 1.6rem;
 }
 
-/* Sets a font size of 12px pixels for paragraphs and unordered list items */
+/* Sets a font size of 1rem pixels for paragraphs and unordered list items */
 .footer-content a,
 .footer-content ul li {
     font-size: 1rem;
