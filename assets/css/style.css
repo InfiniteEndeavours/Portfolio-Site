@@ -201,9 +201,9 @@ img {
     }
 }
 
-/* If user is viewing on a device that has less than 320px of horizontal width, the image will be hidden */
+/* If user is viewing on a device that has less than 320px of horizontal height, the image will be hidden */
 
-@media (max-height: 320px) {
+@media (max-height: 380px) {
 
     #logo {
         display: none !important;
