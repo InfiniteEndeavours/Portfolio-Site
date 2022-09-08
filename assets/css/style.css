@@ -1,46 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
+/* root fontsize is 16px. 1rem = 16px*/
 
-/* --- Colors --- */
+/* Google font imports for regular/bold (400/700) weights of the Space Mono and Trispace font families. */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Trispace:wght@400;700&display=swap');
+
+/* --- General Styling --- */
 
 body {
+    font-family: "Trispace", sans-serif;
     background-color: #06283D;
 }
 
-a {
-    color: #57BCFF;
-}
-/* --- General Styling --- */
-
+/*  Adds an underline to the active class in the navbar*/
 .active {
     text-decoration: underline;
 }
 
+/* Gives all heading elements a default color of #57BCFF and 'Space Mono' as the primary font*/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
     color: #57BCFF
 }
 
-p {
-    font-family: Trispace, sans-serif;
+/* Gives all paragraph and anchor elements a default color of #DFF6FF*/
+p,
+a {
     color: #DFF6FF;
 }
 
-.uppercase {
-    text-transform: uppercase;
+/* 
+Applies a margin of 4rem to the top of the element with this class. This is to space the page out when crossing into other sections 
+Set font weight to 700 to more clearly define a new section of the page
+*/
+.section-break {
+    font-weight: 700;
+    margin-top: 4rem;
 }
-
-.general-heading {
-    font-family: 'Space Mono', monospace;
-    color: #57BCFF;
+/* Spaces out the section headings from the section header by 2 rem to provide content with space*/
+.section-space {
+    margin-top: 2rem;
 }
-
 /* --- Navbar --- */
 
+/* Sets the navbar background to match the bodys background and sets the font color to a slighlty darker default heading color. Adds letter spacing of 1 pixel */
 .navbar,
 .navbar-brand,
 .nav-link {
@@ -49,73 +55,57 @@ p {
     letter-spacing: 1px;
 }
 
+/* Sets 'Ethan Pitt' to bold, increases the font size to make it stand out from the nav items, and sets the font to 'Space Mono */
 .navbar-brand {
-    font-weight: bold;
-    font-size: 36px;
-    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
+/* Increases the nav-link item font size */
 .nav-link {
-    font-size: 18px;
-    font-family: Trispace, sans-serif;
-}
-
-.text-right {
-    text-align: right;
+    font-size: 1.5rem;
 }
 
 /* --- Footer --- */
 
+/* Sets a top margin of 25 pixels*/
 footer {
-    margin: 25px 0px 0px 0px;
+    margin-top: 5rem;
 }
 
+/* Sets a font size of 1.6 rem for footer header elements*/
 .footer-content h1 {
-    font-size: 14px;
+    font-size: 1.6rem;
 }
 
-.footer-content p,
+/* Sets a font size of 1rem pixels for paragraphs and unordered list items */
+.footer-content a,
 .footer-content ul li {
-    font-size: 12px;
+    font-size: 1rem;
 }
 
-.footer-about {
-    text-align: left;
-}
-
-.footer-contact {
-    text-align: center;
-}
-
-.footer-pdf {
-    text-align: right;
-}
-
-.footer-pdf a {
-    text-decoration: none;
-}
-
+/* Sets the font awesome icons in the footer-contact section to 18px */
 .footer-contact ul li a i {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 /* --- About Me --- */
 
-.about-image {
-    display: block;
-    margin: 10px auto;
-    width: 360px;
-    height: 360px;
+img {
+    object-fit: contain;
 }
 
+/* Adds a top margin of 1rem to the top and bottom of the about-info section*/
 .about-info {
-    margin: 15px 0px;
+    margin: 1rem 0;
 }
 
 /* --------------------------- Resume */
+
+/* Sets the header elements to have a bottom margin of 40 pixels to space out content. */
 .skill-set h1,
 .work-history h1 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .timeline {
@@ -133,15 +123,15 @@ footer {
     display: block;
     top: 0;
     background-color: #DFF6FF;
-    left: -38px;
+    left: -2.4rem;
     border-radius: 50%;
-    height: 13px;
-    width: 13px;
+    height: 0.8rem;
+    width: 0.8rem;
     content: "";
 }
 
 .timeline-item h1 {
-    font-size: 26px;
+    font-size: 1.5rem;
 }
 
 
@@ -153,14 +143,15 @@ footer {
 }
 
 .project-heading {
-    font-size: 24px;
-    margin: 25px 0;
+    font-size: 1.5rem;
+    margin: 1.6rem 0;
 }
 
 .project-text {
     text-align: center;
-    padding: 25px 0;
+    padding: 2rem 0;
 }
+
 /* --------------------------- Contact  */
 .center-form {
     max-width: 70%;
@@ -170,15 +161,14 @@ footer {
 }
 
 .center-form form label {
-    color:#DFF6FF;
-    font-family: Trispace, sans-serif;
-    padding-bottom: 5px;
-    padding-top: 15px;
+    color: #DFF6FF;
+    padding-bottom: 0.4rem;
+    padding-top: 0.9rem;
 }
 
 .btn {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
     color: #57BCFF;
     background-color: #06283D;
 }
@@ -191,24 +181,47 @@ footer {
 
 /* --------------------------- Media Queries */
 
-@media (max-width: 768px) {
+/* If user is viewing on a device that has less than 320px of vertical width, the image will be hidden */
+
+@media (max-width: 320px) {
     .navbar-brand {
-        font-size: 24px;
+        font-size: 1rem;
     }
 
     .nav-link {
-        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    #logo {
+        display: none !important;
+    }
+
+    #about-me-jump h2{
+        margin-top: 4rem;
+    }
+}
+
+/* If user is viewing on a device that has less than 320px of horizontal height, the image will be hidden */
+
+@media (max-height: 380px) {
+
+    #logo {
+        display: none !important;
+    }
+
+    #about-me-jump h2{
+        margin-top: 5rem;
     }
 }
 
 /* When Navbar is above 768px, margin-right of 100.33px is applied to offset navbar-brand element.*/
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
-        margin-right: 100.33px;
+        margin-right: 6.271rem;
     }
 
     .center-form {
         max-width: 40%;
-    }   
+    }
 }
