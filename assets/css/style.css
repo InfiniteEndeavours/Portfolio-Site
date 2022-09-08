@@ -188,6 +188,11 @@ footer {
     color: #06283D;
 }
 
+input {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
 /* --------------------------- Media Queries */
 
 @media (max-width: 768px) {
