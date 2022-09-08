@@ -59,13 +59,13 @@ p {
 /* Sets 'Ethan Pitt' to bold, increases the font size to make it stand out from the nav items, and sets the font to 'Space Mono */
 .navbar-brand {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 2rem;
     font-family: 'Space Mono', monospace;
 }
 
 /* Sets the nav-link items to 18 pixels and uses the Trispace font*/
 .nav-link {
-    font-size: 18px;
+    font-size: 1rem;
     font-family: Trispace, sans-serif;
 }
 
@@ -82,34 +82,14 @@ footer {
 }
 
 /* Sets a font size of 12px pixels for paragraphs and unordered list items */
-.footer-content p,
+.footer-content a,
 .footer-content ul li {
-    font-size: 12px;
-}
-
-/* Aligns the footers about section to the left */
-.footer-about {
-    text-align: left;
-}
-
-/* Aligns the footers contact section to the centre */
-.footer-contact {
-    text-align: center;
-}
-
-/* Aligns the footers pdf section to the right */
-.footer-pdf {
-    text-align: right;
-}
-
-/* Removes text decoration from the pdf sections anchor tag */
-.footer-pdf a {
-    text-decoration: none;
+    font-size: 1rem;
 }
 
 /* Sets the font awesome icons in the footer-contact section to 18px */
 .footer-contact ul li a i {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 /* --- About Me --- */
@@ -128,6 +108,8 @@ footer {
 }
 
 /* --------------------------- Resume */
+
+/* Sets the header elements to have a bottom margin of 40 pixels to space out content. */
 .skill-set h1,
 .work-history h1 {
     margin-bottom: 40px;
@@ -209,11 +191,11 @@ footer {
 
 @media (max-width: 768px) {
     .navbar-brand {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .nav-link {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
