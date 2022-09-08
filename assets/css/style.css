@@ -71,35 +71,39 @@ p {
 
 /* --- Footer --- */
 
+/* Sets a top margin of 25 pixels*/
 footer {
     margin: 25px 0px 0px 0px;
 }
-
+/* Sets a font size of 14 pixels for footer header elements*/
 .footer-content h1 {
     font-size: 14px;
 }
 
+/* Sets a font size of 12px pixels for paragraphs and unordered list items */
 .footer-content p,
 .footer-content ul li {
     font-size: 12px;
 }
-
+/* Aligns the footers about section to the left */
 .footer-about {
     text-align: left;
 }
-
+/* Aligns the footers contact section to the centre */
 .footer-contact {
     text-align: center;
 }
-
+/* Aligns the footers pdf section to the right */
 .footer-pdf {
     text-align: right;
 }
 
+/* Removes text decoration from the pdf sections anchor tag */
 .footer-pdf a {
     text-decoration: none;
 }
 
+/* Sets the font awesome icons in the footer-contact section to 18px */
 .footer-contact ul li a i {
     font-size: 18px;
 }
