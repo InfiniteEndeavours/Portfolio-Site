@@ -177,7 +177,7 @@ footer {
 
 /* --------------------------- Media Queries */
 
-@media (max-width: 420px) {
+@media (max-width: 320px) {
     .navbar-brand {
         font-size: 1.5rem;
     }
