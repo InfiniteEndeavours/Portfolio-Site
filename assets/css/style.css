@@ -6,6 +6,9 @@ body {
     background-color: #06283D;
 }
 
+a {
+    color: #57BCFF;
+}
 /* --- General Styling --- */
 
 .active {
@@ -149,15 +152,41 @@ footer {
     color: #57BCFF
 }
 
-.circle-text {
-    border: 1px solid black;
-    border-radius: 50%;
-    text-align: center;
-    height: 250px;
-    width: 250px;
+.project-heading {
+    font-size: 24px;
+    margin: 25px 0;
 }
 
+.project-text {
+    text-align: center;
+    padding: 25px 0;
+}
 /* --------------------------- Contact  */
+.center-form {
+    max-width: 70%;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-form form label {
+    color:#DFF6FF;
+    font-family: Trispace, sans-serif;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #57BCFF;
+    background-color: #06283D;
+}
+
+.btn:hover {
+    background-color: #57BCFF;
+    color: #06283D;
+}
 
 /* --------------------------- Media Queries */
 
@@ -177,4 +206,8 @@ footer {
     .navbar-expand-md .navbar-collapse {
         margin-right: 100.33px;
     }
+
+    .center-form {
+        max-width: 40%;
+    }   
 }
