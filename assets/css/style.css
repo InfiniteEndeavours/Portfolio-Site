@@ -75,6 +75,7 @@ p {
 footer {
     margin: 25px 0px 0px 0px;
 }
+
 /* Sets a font size of 14 pixels for footer header elements*/
 .footer-content h1 {
     font-size: 14px;
@@ -85,14 +86,17 @@ footer {
 .footer-content ul li {
     font-size: 12px;
 }
+
 /* Aligns the footers about section to the left */
 .footer-about {
     text-align: left;
 }
+
 /* Aligns the footers contact section to the centre */
 .footer-contact {
     text-align: center;
 }
+
 /* Aligns the footers pdf section to the right */
 .footer-pdf {
     text-align: right;
@@ -110,6 +114,7 @@ footer {
 
 /* --- About Me --- */
 
+/* Displays the image on its own line with a top and bottom margin of 10px, and a left/right margin of auto to centre the image. A set height and width of 360px is applied */
 .about-image {
     display: block;
     margin: 10px auto;
@@ -117,6 +122,7 @@ footer {
     height: 360px;
 }
 
+/* Adds a top margin of 15px to the top and bottom of the about-info section*/
 .about-info {
     margin: 15px 0px;
 }
