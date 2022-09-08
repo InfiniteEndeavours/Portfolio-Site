@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Trispace:wght@400;700&display=swap');
 
 /* --- General Styling --- */
+html {
+    scroll-padding-top: 2rem;
+}
 
 body {
     font-family: "Trispace", sans-serif;
@@ -42,7 +45,7 @@ Set font weight to 700 to more clearly define a new section of the page
 }
 /* Spaces out the section headings from the section header by 2 rem to provide content with space*/
 .section-space {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 /* --- Navbar --- */
 
