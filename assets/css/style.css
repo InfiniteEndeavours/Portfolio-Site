@@ -36,10 +36,6 @@ p {
     color: #57BCFF;
 }
 
-.center {
-    text-align: center;
-}
-
 /* --- Navbar --- */
 
 .navbar,
@@ -123,36 +119,47 @@ footer {
     border-left: 1px solid #DFF6FF;
     position: relative;
     list-style: none;
-  }
-  
-  .timeline .timeline-item {
+}
+
+.timeline .timeline-item {
     position: relative;
-  }
-  
-  .timeline .timeline-item:after {
+}
+
+.timeline .timeline-item:after {
     position: absolute;
     display: block;
     top: 0;
-    background-color:#DFF6FF;
+    background-color: #DFF6FF;
     left: -38px;
     border-radius: 50%;
     height: 13px;
     width: 13px;
     content: "";
-  }
+}
 
-  .timeline-item h1 {
+.timeline-item h1 {
     font-size: 26px;
-  }
-  
+}
+
 
 /* --------------------------- Projects */
+
+.contact-link {
+    text-decoration: none;
+    color: #57BCFF
+}
+
+.circle-text {
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+}
 
 /* --------------------------- Contact  */
 
 /* --------------------------- Media Queries */
-
-/* When Navbar is above 768px, margin-right of 100.33px is applied.*/
 
 @media (max-width: 768px) {
     .navbar-brand {
@@ -163,6 +170,8 @@ footer {
         font-size: 16px;
     }
 }
+
+/* When Navbar is above 768px, margin-right of 100.33px is applied to offset navbar-brand element.*/
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {

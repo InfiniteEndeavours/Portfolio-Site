@@ -139,4 +139,4 @@ I will aim to keep the site accessible to all users by doing the following:
 
 ## Bugs
 
-Navbar-Brand would push the Navbar div too far to the right and cause it to be off centered. Thank you to @Dave Horrocks for helping. Fix is to apply the opposite margin (Margin-right = width+current margin of navbrand element)
+Navbar-Brand would push the Navbar div too far to the right and cause it to be off text-centered. Thank you to @Dave Horrocks for helping. Fix is to apply the opposite margin (Margin-right = width+current margin of navbrand element)
