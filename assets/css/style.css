@@ -35,6 +35,9 @@ a {
     margin-top: 4rem;
 }
 
+.section-space {
+    margin-top: 2rem;
+}
 /* --- Navbar --- */
 
 /* Sets the navbar background to match the bodys background and sets the font color to a slighlty darker default heading color. Adds letter spacing of 1 pixel*/
