@@ -30,6 +30,11 @@ a {
     color: #DFF6FF;
 }
 
+.section-break {
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
 /* --- Navbar --- */
 
 /* Sets the navbar background to match the bodys background and sets the font color to a slighlty darker default heading color. Adds letter spacing of 1 pixel*/
