@@ -50,7 +50,7 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
     * [Testing User Stories](#testing-user-stories)
 
-    * Lighthouse
+    * [Lighthouse](#lighthouse)
 
     * Manual Testing
 
@@ -304,3 +304,68 @@ For validation of the website's HTML and CSS, I used W3C's HTML and CSS Validato
     ![resume page](docs/testing/returning-user/locate-information.png)
 
 ## Lighthouse
+
+I used the Lighthouse testing suite in Google Chrome Developer Tools to test the performance, accessibility and SEO of my site. I also used it to ensure I was following best practices.
+
+### Index Page
+
+* Lighthouse Desktop Result
+
+![Index Page Desktop View](/docs/testing/lighthouse/indexDesktop.png)
+
+* Lighthouse Mobile Result
+
+![Index Page Mobile View](/docs/testing/lighthouse/indexMobile.png)
+
+### Thank You Page
+
+* Lighthouse Desktop Result
+
+![Thank you Page Desktop View](/docs/testing/lighthouse/thank-youDesktop.png)
+
+* Lighthouse Mobile Result
+
+![Thank You Page Mobile View](/docs/testing/lighthouse/thank-youMobile.png)
+
+### Observations
+
+There is a slight performance disparity between the lighthouse scores depending on what type of device was being tested. 
+
+On mobile devices, the performance score was consistently lower than the desktop view to the large size of the Bootstrap CSS file.
+
+It's possible to remove the critical CSS from the Bootstrap CSS file and load these in to a smaller CSS sheet, then load the rest of the Non-Critical styling after critical styling has been loaded, however I feel that the site is fast enough on mobile devices to not warrant this.
+
+## Manual Testing
+
+For manual testing, I used 3 devices with different screen resolutions across three different browsers. These were:
+
+* Desktop - 3440 x 1440 - Google Chrome, Safari, Firefox
+* Laptop - 2560 x 1600 - Google Chrome, Safari, Firefox
+* Mobile - 1284 x 2778 (Portrait) and 2778 x 1284  (Landscape) - Google Chrome, Safari, Firefox
+
+### Testing Process
+
+### Responsiveness and viewing:
+
+I went through both pages on my desktop and laptop and could observe no issues with responsiveness or elements being out of place.
+
+On the portrait view of mobile this was also the case, however on the landscape mobile view, specifically on the Thank You page, the footer was clipping through the thank you text.
+
+To resolve this, I added a class to the footer on this page and changed the position from 'Absolute' to 'Relative'. This resolved the clipping issue by allowing the footer to sit below the thank you message element.
+
+### Hyperlinks
+
+I visited each page page and confirmed that all links worked correctly. Links that lead to an external site, or that opened a document (such as PDF) worked correctly and opened in a separate tab.
+
+### Contact Form
+
+1. I tried to submit the form without any information and was prompted by a pop-up error informing me I need to enter my name.
+
+2. I filled in my name and tried to submit the form again, recieving an error that the email field was empty.
+
+3. I populated the email field with the word 'email' and tried to submit the form again. I was informed that it was not a valid email address.
+
+4. After entering a valid email address, I once again tried to submit the form, where I reiceved an error as there was nothing populated in the message box.
+
+5. After populating all fields with validate data, I was able to submit the form and was successfuly redirected to the thank you page.
+
