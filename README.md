@@ -139,7 +139,7 @@ All pages will include;
 
 * Navigation Bar - To allow the user to navigate to different sections of the page, as well as obtain a copy of the client's CV.
 
-*Footer Bar - This will have a brief description of the website, links to social media and another download link to the client's CV.
+* Footer Bar - This will have a brief description of the website, links to social media and another download link to the client's CV.
 
 ## Images
 
