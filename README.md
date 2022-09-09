@@ -207,6 +207,33 @@ To use Gitpod for development, I performed the following;
 
 4. Start development once loaded.
 
+## Local Development
+
+Although I did not do any developement on my local machine, here are the steps to follow if you wish to create a local development environment. 
+
+1. Log into GitHub.
+
+2. Copy the Repository URL.
+
+3. Enter your terminal and change to the directory you wish to work in.
+
+4. Enter `git clone` into the terminal and then paste the URl from step 2.
+
+`$ git clone https://github.com/InfiniteEndeavours/Portfolio-Site`
+
+5. Press enter and the repoistory will be cloned to your local device.
+
+`$ git clone https://github.com/InfiniteEndeavours/Portfolio-Site
+Cloning into 'Portfolio-Site'...
+remote: Enumerating objects: 311, done.
+remote: Counting objects: 100% (311/311), done.
+remote: Compressing objects: 100% (133/133), done.
+remote: Total 311 (delta 149), reused 303 (delta 143), pack-reused 0
+Receiving objects: 100% (311/311), 8.59 MiB | 17.74 MiB/s, done.
+Resolving deltas: 100% (149/149), done.`
+
+6. If you set up VSCode in your path, you can then type `code Portfolio-Site` to enter a VSCode session in the repository.
+
 ## Deployment
 
 I used GitHub Pages to deploy the live site. To do this I performed the below;
