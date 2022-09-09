@@ -92,7 +92,7 @@ img {
     margin: 1rem;
 }
 
-/* --------------------------- Resume */
+/* --- Resume  --- */
 
 .skill-set h1,
 .work-history h1 {
@@ -130,7 +130,7 @@ img {
 }
 
 
-/* --------------------------- Projects */
+/* --- Projects --- */
 
 .contact-link {
     text-decoration: none;
@@ -147,7 +147,7 @@ img {
     padding: 2rem 0;
 }
 
-/* --------------------------- Contact  */
+/* --- Contact --- */
 .center-form {
     max-width: 70%;
     padding: 10px 10px;
@@ -174,9 +174,7 @@ img {
 }
 
 
-/* --------------------------- Media Queries */
-
-/* If user is viewing on a device that has less than 320px of vertical width, the image will be hidden */
+/* --- Media Queries --- */
 
 @media (max-width: 320px) {
     .navbar-brand {
@@ -196,8 +194,6 @@ img {
     }
 }
 
-/* If user is viewing on a device that has less than 320px of horizontal height, the image will be hidden */
-
 @media (max-height: 380px) {
 
     #logo {
@@ -212,8 +208,6 @@ img {
         margin-top: 5rem;
     }
 }
-
-/* When Navbar is above 768px, margin-right of 100.33px is applied to offset navbar-brand element.*/
 
 @media screen and (min-width: 768px) {
     .center-form {
