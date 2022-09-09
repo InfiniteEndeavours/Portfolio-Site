@@ -209,18 +209,22 @@ Although I did not do any developement on my local machine, here are the steps t
 
 4. Enter `git clone` into the terminal and then paste the URL from step 2.
 
-`$ git clone https://github.com/InfiniteEndeavours/Portfolio-Site`
+```console
+$ git clone https://github.com/InfiniteEndeavours/Portfolio-Site
+```
 
 5. Press enter and the repository will be cloned to your local device.
 
-`$ git clone https://github.com/InfiniteEndeavours/Portfolio-Site
+```console
+$ git clone https://github.com/InfiniteEndeavours/Portfolio-Site
 Cloning into 'Portfolio-Site'...
 remote: Enumerating objects: 311, done.
 remote: Counting objects: 100% (311/311), done.
 remote: Compressing objects: 100% (133/133), done.
 remote: Total 311 (delta 149), reused 303 (delta 143), pack-reused 0
 Receiving objects: 100% (311/311), 8.59 MiB | 17.74 MiB/s, done.
-Resolving deltas: 100% (149/149), done.`
+Resolving deltas: 100% (149/149), done.
+```
 
 6. If you set up VSCode in your path, you can then type `code Portfolio-Site` to enter a VSCode session in the repository.
 
