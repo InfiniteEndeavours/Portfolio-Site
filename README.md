@@ -434,3 +434,5 @@ The image used is the property of Ethan Pitt.
 * Jack Wachira - My Code Institute Mentor for his feedback on the project.
 
 * [Kera Cudmore](https://github.com/kera-cudmore) - For helping me resolve issues encountered when trying to perform Lighthouse testing.
+
+* [Christopher Undritz](https://github.com/C-Undritz) - For suggesting to change the margin for the body on mobile and tablet devices.
