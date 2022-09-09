@@ -192,6 +192,7 @@ img {
     #about-me-jump h2 {
         margin-top: 4rem;
     }
+    
 }
 
 @media (max-height: 380px) {
@@ -206,6 +207,12 @@ img {
 
     #about-me-jump h2 {
         margin-top: 5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .center-form {
+        max-width: 90%;
     }
 }
 
