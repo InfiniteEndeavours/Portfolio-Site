@@ -369,3 +369,30 @@ I visited each page page and confirmed that all links worked correctly. Links th
 
 5. After populating all fields with validate data, I was able to submit the form and was successfuly redirected to the thank you page.
 
+---
+
+# Credits
+
+## Code
+
+* Bootstrap 5: This library was used to make the site more responsive by utilising the Grid System.
+
+## Content
+
+* All content for this website was written by Ethan Pitt.
+
+* Employment History was generalised and used fake companies found [here](https://time.com/4351022/influential-fake-companies/).
+
+## Media
+
+Images used are property of Ethan Pitt.
+
+## Acknowledgments
+
+* [Dave Horrocks](https://github.com/daveyjh) - For his help in resolving a Navbar margin issue.
+
+* [Simen Daehlin](https://github.com/Eventyret) - For this recommendations on making the site more mobile friendly and for his peer review on slack.
+
+* Jack Wachira - My Code Institute Mentor for his feedback on the project.
+
+* [Kera Cudmore](https://github.com/kera-cudmore) - For helping me resolve issues encountered when trying to perform Lighthouse testing.
