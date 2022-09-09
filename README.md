@@ -32,6 +32,8 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
     * [Languages Used](#languages-used)
 
+    * [Frameworks, Programs and Libraries used](#frameworks-programs-and-libraries-used)
+
 * [Deployment & Development](#deployment-and-development)
 
     * [Local Development](#local-development)
