@@ -287,7 +287,7 @@ The following feedback was given from the Slack community after raising a questi
 
     * When viewing the site on a device in portrait mode and going below 250 pixels in width, the logo was not resizing. To resolve this I added the Bootstrap class `img-fluid` to the `img` element. This issue can be seen below.
 
-![A GIF of Solved Bug #4](docs/SizingIssue.gif)
+![A GIF of Solved Bug #4](docs/sizing-issue.gif)
 
 ## Validation
 
