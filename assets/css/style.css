@@ -13,12 +13,10 @@ body {
     background-color: #06283D;
 }
 
-/*  Adds an underline to the active class in the navbar*/
 .active {
     text-decoration: underline;
 }
 
-/* Gives all heading elements a default color of #57BCFF and 'Space Mono' as the primary font*/
 h1,
 h2,
 h3,
@@ -29,27 +27,22 @@ h6 {
     color: #57BCFF
 }
 
-/* Gives all paragraph and anchor elements a default color of #DFF6FF*/
 p,
 a {
     color: #DFF6FF;
 }
 
-/* 
-Applies a margin of 4rem to the top of the element with this class. This is to space the page out when crossing into other sections 
-Set font weight to 700 to more clearly define a new section of the page
-*/
+
 .section-break {
     font-weight: 700;
     margin-top: 4rem;
 }
-/* Spaces out the section headings from the section header by 2 rem to provide content with space*/
+
 .section-space {
     margin-top: 3rem;
 }
 /* --- Navbar --- */
 
-/* Sets the navbar background to match the bodys background and sets the font color to a slighlty darker default heading color. Adds letter spacing of 1 pixel */
 .navbar,
 .navbar-brand,
 .nav-link {
@@ -58,36 +51,30 @@ Set font weight to 700 to more clearly define a new section of the page
     letter-spacing: 1px;
 }
 
-/* Sets 'Ethan Pitt' to bold, increases the font size to make it stand out from the nav items, and sets the font to 'Space Mono */
 .navbar-brand {
     font-weight: 700;
     font-size: 2rem;
 }
 
-/* Increases the nav-link item font size */
 .nav-link {
     font-size: 1.5rem;
 }
 
 /* --- Footer --- */
 
-/* Sets a top margin of 25 pixels*/
 footer {
     margin-top: 5rem;
 }
 
-/* Sets a font size of 1.6 rem for footer header elements*/
 .footer-content h1 {
     font-size: 1.6rem;
 }
 
-/* Sets a font size of 1rem pixels for paragraphs and unordered list items */
 .footer-content a,
 .footer-content ul li {
     font-size: 1rem;
 }
 
-/* Sets the font awesome icons in the footer-contact section to 18px */
 .footer-contact ul li a i {
     font-size: 1.2rem;
 }
@@ -98,14 +85,12 @@ img {
     object-fit: contain;
 }
 
-/* Adds a top margin of 1rem to the top and bottom of the about-info section*/
 .about-info {
     margin: 1rem 0;
 }
 
 /* --------------------------- Resume */
 
-/* Sets the header elements to have a bottom margin of 40 pixels to space out content. */
 .skill-set h1,
 .work-history h1 {
     margin-bottom: 2.5rem;
