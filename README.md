@@ -189,6 +189,8 @@ HTML and CSS were used to create the website and style it.
 
 * Compressor.io - Used to compress the logo image from 7KB to 1KB.
 
+* embedresponsively.com - Used to create a responsive video container.
+
 ---
 
 # Deployment and Development
@@ -408,6 +410,8 @@ I visited each page and confirmed that all links worked correctly. Links that le
 ## Content
 
 * All content for this website was written by Ethan Pitt.
+
+* Video created by [Jeff Geerling](https://www.youtube.com/watch?v=IUPYpZBfsMU)
 
 * Employment History was generalised and used fake companies found [here](https://time.com/4351022/influential-fake-companies/).
 

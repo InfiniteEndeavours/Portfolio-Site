@@ -129,10 +129,10 @@ img {
     margin-top: 1rem;
 }
 
-
 /* --- Projects --- */
 
-.contact-link {
+.contact-link,
+.channel-link {
     text-decoration: none;
     color: #57BCFF
 }
@@ -173,7 +173,6 @@ img {
     color: #06283D;
 }
 
-
 /* --- Media Queries --- */
 
 @media (max-width: 320px) {
@@ -192,7 +191,7 @@ img {
     #about-me-jump h2 {
         margin-top: 4rem;
     }
-    
+
 }
 
 @media (max-height: 380px) {
@@ -221,4 +220,3 @@ img {
         max-width: 60%;
     }
 }
-
