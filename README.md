@@ -34,13 +34,13 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
 * [Deployment & Development](#deployment-and-development)
 
-    * Local Development
+    * [Local Development](#local-development)
 
     * [Development](#development)
 
     * [Deployment](#deployment)
 
-* Testing
+* [Testing](#testing)
 
     * [Feedback](#feedback)
 
@@ -111,9 +111,9 @@ The palette I am using is based [off of this palette](https://colorhunt.co/palet
 
 ## Typography
 
-. 'Space Mono' font from Google Fonts. This will be used for headings. It is a monospace font.
+* 'Space Mono' font from Google Fonts. This will be used for headings. It is a monospace font.
 
-. 'Trispace' font from Google Fonts. This will be used for the body text. This is a sans-serif font.
+* 'Trispace' font from Google Fonts. This will be used for the body text. This is a sans-serif font.
 
 ## Features
 
@@ -193,20 +193,6 @@ HTML and CSS were used to create the website and style it.
 
 # Deployment and Development
 
-## Development
-
-All development was done using [gitpod](https://gitpod.io).
-
-To use Gitpod for development, I performed the following;
-
-1. Created a repository using the template provided by Code Institute.
-
-2. Logged into Gitpod and selected 'New Workspace'.
-
-3. Wait for Gitpod to build the container image.
-
-4. Start development once loaded.
-
 ## Local Development
 
 Although I did not do any developement on my local machine, here are the steps to follow if you wish to create a local development environment. 
@@ -233,6 +219,21 @@ Receiving objects: 100% (311/311), 8.59 MiB | 17.74 MiB/s, done.
 Resolving deltas: 100% (149/149), done.`
 
 6. If you set up VSCode in your path, you can then type `code Portfolio-Site` to enter a VSCode session in the repository.
+
+
+## Development
+
+All development was done using [Gitpod](https://gitpod.io).
+
+To use Gitpod for development, I performed the following;
+
+1. Created a repository using the template provided by Code Institute.
+
+2. Logged into Gitpod and selected 'New Workspace'.
+
+3. Wait for Gitpod to build the container image.
+
+4. Start development once loaded.
 
 ## Deployment
 
@@ -292,11 +293,11 @@ The following feedback was given from the Slack community after raising a questi
 
 For validation of the website's HTML and CSS, I used W3C's HTML and CSS Validators.
 
-* [HTML Validation (index.html)](docs/testing/w3cIndexValidation.png)
+* [HTML Validation (index.html)](docs/testing/w3c-index-validation.png)
 
-* [HTML Validation (thank-you.html)](docs/testing/w3cThankYouValidation.png)
+* [HTML Validation (thank-you.html)](docs/testing/w3c-thank-you-validation.png)
 
-* [CSS Validation (style.css)](docs/testing/cssValidation.png)
+* [CSS Validation (style.css)](docs/testing/css-validation.png)
 
 ## Testing User Stories
 
@@ -338,21 +339,21 @@ I used the Lighthouse testing suite in Google Chrome Developer Tools to test the
 
 * Lighthouse Desktop Result
 
-![Index Page Desktop View](/docs/testing/lighthouse/indexDesktop.png)
+![Index Page Desktop View](/docs/testing/lighthouse/index-desktop.png)
 
 * Lighthouse Mobile Result
 
-![Index Page Mobile View](/docs/testing/lighthouse/indexMobile.png)
+![Index Page Mobile View](/docs/testing/lighthouse/index-mobile.png)
 
 ### Thank You Page
 
 * Lighthouse Desktop Result
 
-![Thank you Page Desktop View](/docs/testing/lighthouse/thank-youDesktop.png)
+![Thank you Page Desktop View](/docs/testing/lighthouse/thank-you-desktop.png)
 
 * Lighthouse Mobile Result
 
-![Thank You Page Mobile View](/docs/testing/lighthouse/thank-youMobile.png)
+![Thank You Page Mobile View](/docs/testing/lighthouse/thank-you-mobile.png)
 
 ### Observations
 
