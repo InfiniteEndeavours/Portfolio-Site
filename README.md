@@ -34,6 +34,8 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
 * [Deployment & Development](#deployment-and-development)
 
+    * Local Development
+
     * [Development](#development)
 
     * [Deployment](#deployment)
@@ -46,9 +48,12 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
     * [Validation](#validation)
 
-    * Testing User Stories
+    * [Testing User Stories](#testing-user-stories)
+
+    * Lighthouse
 
     * Manual Testing
+
 
 ---
 
@@ -80,7 +85,7 @@ Key Goals:
 
 ### First Time Visitor
 
-* I want to be able to view the persons work history and skillset without needing to see a CV.
+* I want to be able to view the persons work history and skill set without needing to see a CV.
 
 * I want to be able to contact the person easily.
 
@@ -90,7 +95,7 @@ Key Goals:
 
 ### Returning Visitor
 
-*  I should be able to quickly locate important information such as the persons skillset so I can show this to someone else.
+*  I should be able to quickly locate important information such as the persons skill set so I can show this to someone else.
 
 ---
 
@@ -112,29 +117,29 @@ The palette I am using is based [off of this palette](https://colorhunt.co/palet
 
 The website will feature 3 pages, which are accessible from the home page via navigation links (Home, Resume and Projects). The site will also feature a downloadable copy of a CV.
 
-* All pages will contain the following
+* All pages will contain the following:
 
-* A responsive navigation bar which will allow the user to traverse the site using the buttons located on top of the pages banner.
+    * A responsive navigation bar which will allow the user to traverse the site using the buttons located on top of the pages banner.
 
-* A footer at the bottom of the page, which will feature a small brief about the client, a link to their CV and links to social medias (Github, Twitter, Email etc).
+    * A footer at the bottom of the page, which will feature a small brief about the client, a link to their CV and links to social media (Github, Twitter, Email etc).
 
 * Home Page
 
-* The home page will feature three blurbs about the client, such as a brief about the client, what their motivation is and what their goals are in the future.
+    * The home page will feature three blurbs about the client, such as a brief about the client, what their motivation is and what their goals are in the future.
 
 * Resume
 
-* This page will feature a horizontal timeline for the client's work history.
+    * This page will feature a horizontal timeline for the client's work history.
 
-* A section about the client's skills, which will be consist of both skill graphs and written text.
+    * A section about the client's skills, which will consist written text.
 
 * Projects
 
-* Two sections covering a project the client has completed as well as a project the client is going to be working on.
+    * Two sections covering a project the client has completed as well as a project the client is going to be working on.
 
 * Contact
 
-* Contains a form which allows a recruiter or user to establish communication with the client.
+    * Contains a form which allows a recruiter or user to establish communication with the client.
 
 ## Images
 
@@ -226,9 +231,9 @@ Throughout the build of the website, I utilised both Chrome and Firefox developm
 
 When asking for a peer to review the website on Slack, the following was raised:
 
-* Simen Daehlin suggested to make the website more mobile friendly by having multiple sections on one scrolling page, instead of separate pages.
+* Simen Daehlin suggested making the website more mobile friendly by having multiple sections on one scrolling page, instead of separate pages.
 
-* Simen also suggested to move away from using absolute measurements in the CSS file to using relative measurements, which would allow for better scaling across devices.
+* Simen also suggested moving away from using absolute measurements in the CSS file to using relative measurements, which would allow for better scaling across devices.
 
 ## Feedback
 
@@ -240,17 +245,19 @@ The following feedback was given from the Slack community after raising a questi
 
 * Known Issues
 
-* When viewing on a device that is less than 321 pixels in width, the Navbar does not scale correctly with the rest of the elements, causing content to be pushed to the left of the page.
+    * When viewing on a device that is less than 321 pixels in width, the Navbar does not scale correctly with the rest of the elements, causing content to be pushed to the left of the page. As most modern devices have a vertical width over 320px I don't foresee this being an issue.
+
+    * When on a mobile device and using the collapsed navbar, clicking on a nav item will take a user to the desired section but won't close the navbar. After investigation this seems to be default Bootstrap behaviour.
 
 * Solved Bugs
 
-* Navbar Brand - When the navbar menu was expanded, the Navbar items would be too far to the right of the screen and not be centered as it should have been. To resolve this, I added a margin offset based on the width and existing margin or the Navar Brand. Credit to **DaveHorrocks_5P** on Slack for helping me to resolve this issue.
+    * Navbar Brand - When the navbar menu was expanded, the Navbar items would be too far to the right of the screen and not be centered as it should have been. To resolve this, I added a margin offset based on the width and existing margin or the Navbar Brand. Credit to **DaveHorrocks_5P** on Slack for helping me to resolve this issue.
 
-* On smaller devices, if you wanted to visit a new page you needed to scroll back to the top of the page to change page. As this wasn't very easy for mobile users I have now condensed the site into one static page with anchor points throughout. To accompany this I have also made the navigation bar fixed to the top of the screen, so it is accessible no matter what section of the page the user is on.
+    * On smaller devices, if you wanted to visit a new page you needed to scroll back to the top of the page to change page. As this wasn't very easy for mobile users I have now condensed the site into one static page with anchor points throughout. To accompany this I have also made the navigation bar fixed to the top of the screen, so it is accessible no matter what section of the page the user is on.
 
-* After a request for a peer review on Slack, Simen Daehlin pointed out scalability issues. This was due to the use of measurements using pixels, due to this, small devices were scaling incorrectly. This was resolved by moving away from pixel measurements and instead using rem.
+    * After a request for a peer review on Slack, Simen Daehlin pointed out scalability issues. This was due to the use of measurements using pixels, due to this, small devices were scaling incorrectly. This was resolved by moving away from pixel measurements and instead using rem.
 
-* When viewing the site on a device in portrait mode and going below 250 pixels in width, the logo was not resizing. To resolve this I added the Bootstrap class `img-fluid` to the `img` element. This issue can be seen below.
+    * When viewing the site on a device in portrait mode and going below 250 pixels in width, the logo was not resizing. To resolve this I added the Bootstrap class `img-fluid` to the `img` element. This issue can be seen below.
 
 ![A GIF of Solved Bug #4](docs/SizingIssue.gif)
 
@@ -265,3 +272,35 @@ For validation of the website's HTML and CSS, I used W3C's HTML and CSS Validato
 * [CSS Validation (style.css)](docs/testing/cssValidation.png)
 
 ## Testing User Stories
+
+### First Time Visitor
+
+* I want to be able to view the persons work history and skill set without need to see a CV.
+    * The user can achieve this by either scrolling down to the Resume section, or by using the navigation links at the top of the page.
+    
+    ![resume page](docs/testing/first-time-user/resume.png)
+
+* I want to be able to contact the person easily.
+    * The user can achieve this by either scrolling down to the Contact section, or by using the navigation links at the top of the page. There are 3 required fields the user needs to fill in. These are their name, email and the message they wish to send to the site owner.
+    
+    ![contact page](docs/testing/first-time-user/contact.png)
+
+* I want to be able to download a copy of the persons CV.
+    * The user can achieve this by either clicking on the CV Navigation link, or by using the download icon in the footer. Both options allow a user to view the CV in their browser which can then be printed or downloaded.
+    
+    ![cv](docs/testing/first-time-user/cv.png)
+
+* I want to be able to navigate the site easily.
+    * The user can easily navigate the site by simply scrolling up or down as it is a one page site. This makes it mobile friendly. The user can also navigate to specific sections using the navbar.
+
+![navigation gif](docs/testing/first-time-user/scroll-and-click.gif)
+
+
+### Returning Visitor
+
+* I should be able to quickly locate important information such as the persons skill set, so I can show it to someone else.
+    * The user can easily locate this information by using the navbar at the top of the page which will hyperlink to the desired section.
+
+    ![resume page](docs/testing/returning-user/locate-information.png)
+
+## Lighthouse
