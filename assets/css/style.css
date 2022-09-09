@@ -210,12 +210,20 @@ img {
 }
 
 @media (max-width: 767px) {
+    body {
+        margin: 0 3%;
+    }
+
     .center-form {
         max-width: 90%;
     }
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        margin: 0 8%;
+    }
+
     .center-form {
         max-width: 60%;
     }
