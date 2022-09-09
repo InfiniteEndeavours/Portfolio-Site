@@ -204,6 +204,10 @@ img {
         display: none !important;
     }
 
+    .thank-you-footer {
+        position: relative;
+    }
+
     #about-me-jump h2 {
         margin-top: 5rem;
     }
