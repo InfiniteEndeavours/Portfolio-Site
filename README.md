@@ -52,7 +52,9 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
     * [Lighthouse](#lighthouse)
 
-    * Manual Testing
+    * [Manual Testing](#manual-testing)
+
+* [Credits](#credits)
 
 
 ---
@@ -61,13 +63,13 @@ This website is designed to act as a Personal Portfolio site for myself, which w
 
 ## Project Discussion
 
-This website is an online portfolio for myself, where I can showcase the skills I have learnt, along with my work history and projects that I have completed in my personal time.
+This website is an online portfolio for myself, where I can showcase the skills I have learnt, along with my work history and projects that I have completed in my time.
 
 Key Goals:
 
 * To be able to present my work history
 
-* To be able to provide a copy of my CV Employers can access.
+* To be able to provide a copy of my CV Employers can access it.
 
 ## User Stories
 
@@ -83,19 +85,19 @@ Key Goals:
 
 * To display upcoming projects.
 
-### First Time Visitor
+### First-Time Visitor
 
-* I want to be able to view the persons work history and skill set without needing to see a CV.
+* I want to be able to view the person's work history and skill set without needing to see a CV.
 
 * I want to be able to contact the person easily.
 
-* I want to be able to download a copy of the persons CV.
+* I want to be able to download a copy of the person's CV.
 
 * I want to be able to navigate the site easily.
 
 ### Returning Visitor
 
-*  I should be able to quickly locate important information such as the persons skill set so I can show this to someone else.
+*  I should be able to quickly locate important information such as the person's skill set so I can show this to someone else.
 
 ---
 
@@ -105,7 +107,7 @@ Key Goals:
 
 ![Ethan Pitt Portfolio Site Color Palette](docs/colors.png)
 
-The palette I am using is based [off of this palette](https://colorhunt.co/palette/06283d1363df47b5ffdff6ff), however the secondary color, #47B5FF, has been modified to #57BCFF, which allows it to pass WebAIM WCAG AAA standards on a black background while still sticking to the original theme.
+The palette I am using is based [off of this palette](https://colorhunt.co/palette/06283d1363df47b5ffdff6ff), however, the secondary colour, #47B5FF, has been modified to #57BCFF, which allows it to pass WebAIM WCAG AAA standards on a black background while still sticking to the original theme.
 
 ## Typography
 
@@ -115,31 +117,29 @@ The palette I am using is based [off of this palette](https://colorhunt.co/palet
 
 ## Features
 
-The website will feature 3 pages, which are accessible from the home page via navigation links (Home, Resume and Projects). The site will also feature a downloadable copy of a CV.
+The website will take on a single-page design for the main content. There will be a second webpage which is only displayed after a user submits a contact form.
 
-* All pages will contain the following:
+The Home page will include;
 
-    * A responsive navigation bar which will allow the user to traverse the site using the buttons located on top of the pages banner.
+* About me section - This will provide a brief introduction.
 
-    * A footer at the bottom of the page, which will feature a small brief about the client, a link to their CV and links to social media (Github, Twitter, Email etc).
+* Work History section - This will showcase the previous and current roles of the client.
 
-* Home Page
+* Skill set section - This will show the skill set of the client.
 
-    * The home page will feature three blurbs about the client, such as a brief about the client, what their motivation is and what their goals are in the future.
+* Projects section - This skillset the projects the client has completed.
 
-* Resume
+* Contact Form - This will allow users to contact the client.
 
-    * This page will feature a horizontal timeline for the client's work history.
+The Thank You page will include;
 
-    * A section about the client's skills, which will consist written text.
+* A thank you message - This will inform users that the client will get back to them
 
-* Projects
+All pages will include;
 
-    * Two sections covering a project the client has completed as well as a project the client is going to be working on.
+* Navigation Bar - To allow the user to navigate to different sections of the page, as well as obtain a copy of the client's CV.
 
-* Contact
-
-    * Contains a form which allows a recruiter or user to establish communication with the client.
+*Footer Bar - This will have a brief description of the website, links to social media and another download link to the client's CV.
 
 ## Images
 
@@ -153,7 +153,7 @@ The Wireframes for this site can be found [here](docs/wireframes/wireframes.pdf)
 
 I will aim to keep the site accessible to all users by doing the following:
 
-* Making sure all colours contrast each other nicely and pass the [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/) tests.
+* Make sure all colours contrast each other nicely and pass the [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/) tests.
 
 * Using Semantic HTML throughout the site.
 
@@ -171,7 +171,7 @@ HTML and CSS were used to create the website and style it.
 
 ## Frameworks, Programs and Libraries used
 
-* Bootstrap Version 5.2 - Framework used for the website. The Navbar, Timeline, Footer and main sections were created using Bootstraps grid systems. These were modified and then styled using my own style sheet.
+* Bootstrap Version 5.2 - Framework used for the website. The Navbar, Timeline, Footer and main sections were created using Bootstraps grid systems. These were modified and then styled using my style sheet.
 
 * Balsamiq - Used to create wireframes for the website.
 
@@ -217,11 +217,11 @@ Although I did not do any developement on my local machine, here are the steps t
 
 3. Enter your terminal and change to the directory you wish to work in.
 
-4. Enter `git clone` into the terminal and then paste the URl from step 2.
+4. Enter `git clone` into the terminal and then paste the URL from step 2.
 
 `$ git clone https://github.com/InfiniteEndeavours/Portfolio-Site`
 
-5. Press enter and the repoistory will be cloned to your local device.
+5. Press enter and the repository will be cloned to your local device.
 
 `$ git clone https://github.com/InfiniteEndeavours/Portfolio-Site
 Cloning into 'Portfolio-Site'...
@@ -258,15 +258,15 @@ Throughout the build of the website, I utilised both Chrome and Firefox developm
 
 When asking for a peer to review the website on Slack, the following was raised:
 
-* Simen Daehlin suggested making the website more mobile friendly by having multiple sections on one scrolling page, instead of separate pages.
+* Simen Daehlin suggested making the website more mobile-friendly by having multiple sections on one scrolling page, instead of separate pages.
 
 * Simen also suggested moving away from using absolute measurements in the CSS file to using relative measurements, which would allow for better scaling across devices.
 
 ## Feedback
 
-The following feedback was given from the Slack community after raising a question in regards to forms.
+The following feedback was given from the Slack community after raising a question regarding forms.
 
-* Instead of submitting the contact form to the Code Institute Form Dump, it should instead redirect to a 'Thank you' page. This was mainly raised for privacy concerns as it is not a server I have access too. This has now been changed and users are redirected to a thank you page.
+* Instead of submitting the contact form to the Code Institute Form Dump, it should instead redirect to a 'Thank you' page. This was mainly raised for privacy concerns as it is not a server I have access to. This has now been changed and users are redirected to a thank you page.
 
 ## Bugs
 
@@ -318,14 +318,14 @@ For validation of the website's HTML and CSS, I used W3C's HTML and CSS Validato
     ![cv](docs/testing/first-time-user/cv.png)
 
 * I want to be able to navigate the site easily.
-    * The user can easily navigate the site by simply scrolling up or down as it is a one page site. This makes it mobile friendly. The user can also navigate to specific sections using the navbar.
+    * The user can easily navigate the site by simply scrolling up or down as it is a one-page site. This makes it mobile-friendly. The user can also navigate to specific sections using the navbar.
 
 ![navigation gif](docs/testing/first-time-user/scroll-and-click.gif)
 
 
 ### Returning Visitor
 
-* I should be able to quickly locate important information such as the persons skill set, so I can show it to someone else.
+* I should be able to quickly locate important information such as the person's skill set, so I can show it to someone else.
     * The user can easily locate this information by using the navbar at the top of the page which will hyperlink to the desired section.
 
     ![resume page](docs/testing/returning-user/locate-information.png)
@@ -358,7 +358,7 @@ I used the Lighthouse testing suite in Google Chrome Developer Tools to test the
 
 There is a slight performance disparity between the lighthouse scores depending on what type of device was being tested. 
 
-On mobile devices, the performance score was consistently lower than the desktop view to the large size of the Bootstrap CSS file.
+On mobile devices, the performance score was consistently lower than on the desktop view to the large size of the Bootstrap CSS file.
 
 It's possible to remove the critical CSS from the Bootstrap CSS file and load these in to a smaller CSS sheet, then load the rest of the Non-Critical styling after critical styling has been loaded, however I feel that the site is fast enough on mobile devices to not warrant this.
 
@@ -382,7 +382,7 @@ To resolve this, I added a class to the footer on this page and changed the posi
 
 ### Hyperlinks
 
-I visited each page page and confirmed that all links worked correctly. Links that lead to an external site, or that opened a document (such as PDF) worked correctly and opened in a separate tab.
+I visited each page and confirmed that all links worked correctly. Links that lead to an external site, or that opened a document (such as PDF) worked correctly and opened in a separate tab.
 
 ### Contact Form
 
@@ -392,7 +392,7 @@ I visited each page page and confirmed that all links worked correctly. Links th
 
 3. I populated the email field with the word 'email' and tried to submit the form again. I was informed that it was not a valid email address.
 
-4. After entering a valid email address, I once again tried to submit the form, where I reiceved an error as there was nothing populated in the message box.
+4. After entering a valid email address, I once again tried to submit the form, where I received an error as there was nothing populated in the message box.
 
 5. After populating all fields with validate data, I was able to submit the form and was successfuly redirected to the thank you page.
 
@@ -412,13 +412,13 @@ I visited each page page and confirmed that all links worked correctly. Links th
 
 ## Media
 
-Images used are property of Ethan Pitt.
+The image used is the property of Ethan Pitt.
 
 ## Acknowledgments
 
 * [Dave Horrocks](https://github.com/daveyjh) - For his help in resolving a Navbar margin issue.
 
-* [Simen Daehlin](https://github.com/Eventyret) - For this recommendations on making the site more mobile friendly and for his peer review on slack.
+* [Simen Daehlin](https://github.com/Eventyret) - For the recommendations on making the site more mobile-friendly and for his peer review on slack.
 
 * Jack Wachira - My Code Institute Mentor for his feedback on the project.
 
