@@ -279,6 +279,8 @@ The following feedback was given from the Slack community after raising a questi
 
 * Instead of submitting the contact form to the Code Institute Form Dump, it should instead redirect to a 'Thank you' page. This was mainly raised for privacy concerns as it is not a server I have access to. This has now been changed and users are redirected to a thank you page.
 
+* A icon should be added to the 'CV' navbar item element to indicate to the user that the CV will either open in a new tab or be downloaded to their device. On iOS the CV opens in a new tab but on Android the CV is downloaded to the users device.
+
 ## Bugs
 
 * Known Issues
@@ -431,7 +433,7 @@ The image used is the property of Ethan Pitt.
 
 ## Acknowledgments
 
-* [Dave Horrocks](https://github.com/daveyjh) - For his help in resolving a Navbar margin issue.
+* [Dave Horrocks](https://github.com/daveyjh) - For his help in resolving a Navbar margin issue and also for his help in ensuring the 'CV' navbar item indicates to a user that an external action will take place (Download/Open in a new tab).
 
 * [Simen Daehlin](https://github.com/Eventyret) - For the recommendations on making the site more mobile-friendly and for his peer review on slack.
 
