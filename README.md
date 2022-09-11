@@ -421,7 +421,7 @@ I visited each page and confirmed that all links worked correctly. Links that le
 
 * All content for this website was written by Ethan Pitt.
 
-* Video created by [Jeff Geerling](https://www.youtube.com/watch?v=IUPYpZBfsMU)
+* Video created by [Jeff Geerling](https://www.youtube.com/watch?v=IUPYpZBfsMU). Permission to use this video was obtained by the author.
 
 * Employment History was generalised and used fake companies found [here](https://time.com/4351022/influential-fake-companies/).
 
