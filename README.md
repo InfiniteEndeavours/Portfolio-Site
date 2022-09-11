@@ -2,6 +2,8 @@
 
 This website is designed to act as a Personal Portfolio site for myself, which will be responsive on a variety of devices. It will allow prospective employers to review my work history and the projects I have completed.
 
+The live site can be found [here](https://infiniteendeavours.github.io/Portfolio-Site/).
+
 ---
 
 ![Am I responsive Screenshot](docs/testing/responsiveness.png)
