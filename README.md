@@ -309,6 +309,8 @@ For validation of the website's HTML and CSS, I used W3C's HTML and CSS Validato
 
 * [CSS Validation (style.css)](docs/testing/css-validation.png)
 
+To validate the CSS, I directly uploaded my style.css file to the Jigsaw validator provided by W3C. If you attempt to validate the CSS by using the URI, errors are returned however these are from the linked Boostrap CSS file which is out of my control.
+
 ## Testing User Stories
 
 ### First Time Visitor
