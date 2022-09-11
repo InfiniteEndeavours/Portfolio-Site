@@ -147,6 +147,11 @@ img {
     padding: 2rem 0;
 }
 
+.project-video {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 /* --- Contact --- */
 .center-form {
     max-width: 70%;
